@@ -2,7 +2,7 @@
 import styles from '@/app/contact/contact.module.css'
 import Link from "next/link";
 import {Mulish} from "next/font/google";
-import {useState} from "react";
+import React, {useState} from "react";
 
 
 
