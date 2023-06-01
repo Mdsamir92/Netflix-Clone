@@ -1,0 +1,153 @@
+ .main_header{
+    padding: 0 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: linear-gradient(-45deg,red, yellow,blue);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  
+    position: relative;
+} 
+ 
+
+.navbar_brand {
+    text-align: left;
+    margin-top: 10px;
+   
+}
+
+.navbar_brand h3{
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+
+     
+}
+
+
+.navbarList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.1rem;
+   
+}
+
+.navbarItem {
+    height: 100%;
+    display: grid;
+    place-items: center;
+  
+}
+
+.navbarList a {
+    font-weight: bold;
+    /* font-size: 1.8rem; */
+    color: #161617;
+    padding: 1.2rem 1rem;
+    margin: 0;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+
+.navbarItem a:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: .5rem;
+    background-color: #e50914;
+    left: -100%;
+}
+
+.navbarItem a:hover:before {
+    animation: coolNavLine .4s linear forwards;
+}
+
+@keyframes coolNavLine {
+    0% {
+        left: -100%;
+        height: .5rem;
+    }
+    50% {
+        left: 0;
+        height: .5rem;
+    }
+    100% {
+        left: 0;
+        height: 100%;
+        z-index: -1;
+    }
+}
+
+.navbarList .navbarItem a:hover{
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .main_header {
+        padding: 0 5rem;
+    }
+  
+  
+    .navbar_brand h3{
+        font-size: 23px;
+        font-weight: 700;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+         
+    }
+
+    .mob_navbar_brand h3{
+        font-size: 23px;
+        font-weight: 700;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+
+    }
+    .mob_navbar_brand h3{
+        font-size: 22px;
+        font-weight: 700;
+        position: absolute;
+        top: 33px;
+        left: 15px;
+
+    }
+    .logo{
+        margin-left: 15px;
+    }
+   
+    .mobile-nav-icon {
+        font-size: 2.2rem;
+        
+    }
+    .mobile{
+        list-style: none;
+        margin: 40px;
+       
+    }
+    .mobile li a{
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .mobile li{
+        margin: 40px;
+    }
+ 
+
+
+
+}
