@@ -106,18 +106,11 @@
         font-weight: 700;
         position: absolute;
         top: 15px;
-        left: 15px;
+        left: 12px;
          
     }
 
-    .mob_navbar_brand h3{
-        font-size: 23px;
-        font-weight: 700;
-        position: absolute;
-        top: 15px;
-        left: 15px;
 
-    }
     .mob_navbar_brand h3{
         font-size: 22px;
         font-weight: 700;
