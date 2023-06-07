@@ -26,7 +26,7 @@ function Hero() {
        documentaries, feature films and mobile games. Our members control what they want to watch,
        when they want it, in one simple subscription.
        We’re streaming in more than 30 languages and 190 countries, 
-       great stories can come from anywhere and be loved everywhere. 
+       great stories can come from anywhere and be loved. 
       
         </p>
        
